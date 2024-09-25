@@ -9,6 +9,12 @@ opt.number = true
 opt.ignorecase = true	-- ignore case when searching
 opt.smartcase = true	-- if you include mixed case in your search, assume you want case-sensitive
 
+-- Tabs & indentation
+opt.tabstop = 4 -- 4 spaces for tabs
+opt.shiftwidth = 4 -- 4 spaces for indent width
+opt.expandtab = true -- expand tab to space
+opt.autoindent = true -- copy indent from current line when starting new one
+
 -- Highlight the current cursor line
 opt.cursorline = true
 
