@@ -14,3 +14,9 @@ keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to the next tab" })	
 keymap.set("n", "<leader>tp", "<cmd>tabb<CR>", { desc = "Go to the previous tab" })	-- go to previous tab 
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })	
 
+-- vim-tmux-navigator keymaps
+keymap.set("n", "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>")
+keymap.set("n", "<c-j>", "<cmd><C-U>TmuxNavigateDown<cr>")
+keymap.set("n", "<c-k>", "<cmd><C-U>TmuxNavigateUp<cr>")
+keymap.set("n", "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>")
+keymap.set("n", "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>")
