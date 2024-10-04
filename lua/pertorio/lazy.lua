@@ -16,4 +16,4 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Setup lazy.nvim
-require("lazy").setup("pertorio.plugins")
+require("lazy").setup( { import = "pertorio.plugins"})
